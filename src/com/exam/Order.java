@@ -14,6 +14,6 @@ public class Order {
 }
 	public void add(Ticket ticket) {
 		// TODO Auto-generated method stub
-		
+		ticket(t);
 	}
 }
