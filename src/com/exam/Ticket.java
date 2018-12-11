@@ -2,7 +2,7 @@ package com.exam;
 
 public class Ticket {
 	public Ticket(String string, String string2, String a, String b) {
-		System.out.println("Result :");
+		
 		for (int i = 0; i < string.length(); i++) {
 			char letter = string.charAt(i);
 			System.out.print(letter); }
