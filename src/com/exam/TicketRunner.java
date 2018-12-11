@@ -8,6 +8,7 @@ public class TicketRunner {
 	 */
 	public static void main(String[] args) {
 		Order order = new Order();
+		
 		//origin, destination, price, quantity
 		Ticket ticket = new Ticket("Taipei", "Keelung", 37, 2);
 		order.add(ticket);
