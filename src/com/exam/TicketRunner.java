@@ -15,6 +15,21 @@ public class TicketRunner {
 		ticket = new Ticket("TaiChung", "Taipei", "285", "1");
 		order.add(ticket);
 		order.print();
-	}
+		String n1 = "Hello world";
+		//           01234567890
+		for (int i = 10; i >=0 ; i--) {
+			System.out.print(n1.charAt(i));
+			}
+		System.out.println("");
+		
+		
+		String n2 = new String("Jack Tom Eric");
+		String n3 ="Tom";
+		int index = n2.indexOf(n3);
+		System.out.println(index);
+		System.out.print(n2.substring(0,index) + "boss" +
+				n2.substring( index+n3.length() ));
+		}
+		}
 
-}
+
